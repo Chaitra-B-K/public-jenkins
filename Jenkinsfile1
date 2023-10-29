@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('Pull source code from GitHub repo') {
             steps {
-                git url: "https://github.com/Chaitra-B-K/public-jenkins.git"
+                git url: "https://github.com/Chaitra-Basavaraj/DevOpsClassCodes.git"
                 echo 'First Job Done'
             }
         }
